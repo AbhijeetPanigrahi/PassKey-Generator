@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" href="styles.css" />
+
+    <title>Random PassKey Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-container">
+        <h2>PassKey Generator</h2>
+        <span id="result"></span>
+        <button class="btn" id="clipboard">
+          <i class="far fa-clipboard"></i>
+        </button>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <p>PassKey Length</p>
+          <input type="number" id="length" min="4" max="20" value="20" />
+        </div>
+
+        <div class="setting">
+          <p>Include uppercase letters</p>
+          <input type="checkbox" id="uppercase" checked />
+        </div>
+
+        <div class="setting">
+          <p>Include lowercase letters</p>
+          <input type="checkbox" id="lowercase" checked />
+        </div>
+
+        <div class="setting">
+          <p>Include numbers</p>
+          <input type="checkbox" id="numbers" checked />
+        </div>
+
+        <div class="setting">
+          <p>Include symbols</p>
+          <input type="checkbox" id="symbols" checked />
+        </div>
+      </div>
+
+      <button class="btn btn-large" id="generate">Generate PassKey</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
