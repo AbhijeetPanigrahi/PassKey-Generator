@@ -14,4 +14,5 @@ This project is a simple random passkey generator that creates strong and secure
 
 ## ScreenShot
 
-![Random Passkey Generator](Random PassKey Generator.png)
+![Random PassKey Generator](https://github.com/AbhijeetPanigrahi/PassKey-Generator/assets/141105280/b785124c-9c73-4f52-a0ed-6da61d31b8eb)
+
